@@ -38,13 +38,15 @@ Starts the server on http://localhost:5000
 
 Swagger UI available at /api-docs
 
-🧪 API Endpoints
+## 🧪 API Endpoints
+
 🔐 Auth
 POST /api/auth/register – Register user
 
 POST /api/auth/login – Login and get token
 
-✅ Tasks (Authenticated)
+## ✅ Tasks (Authenticated)
+
 GET /api/tasks – Get all tasks
 
 POST /api/tasks – Create new task
@@ -53,7 +55,8 @@ PUT /api/tasks/:id – Update task
 
 DELETE /api/tasks/:id – Delete task
 
-📚 API Documentation (Swagger)
+## 📚 API Documentation (Swagger)
+
 Once running locally:
 
 bash
@@ -61,8 +64,6 @@ Copy
 Edit
 http://localhost:5000/api-docs
 
-👤 Author
 Built by Karim Wael
 
-📝 License
 This project is open-source and free to use.
